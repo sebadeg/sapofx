@@ -50,6 +50,7 @@ gem 'twitter-bootstrap-rails', '4.0'
 gem 'devise-bootstrap-views', '0.0.11'
 gem 'cancancan', '~> 2.0'
 
+gem 'twitter', '6.2'
 
 #gem 'dbf', '~> 3.1', '>= 3.1.1'
 #gem 'roo', '~> 2.7', '>= 2.7.1'
