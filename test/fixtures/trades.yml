@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 1
+  price: 9.99
+  filename: MyString
+  file: 
+  close_price: 9.99
+  closed_at: 2018-09-08 13:55:27
+
+two:
+  type: 1
+  price: 9.99
+  filename: MyString
+  file: 
+  close_price: 9.99
+  closed_at: 2018-09-08 13:55:27

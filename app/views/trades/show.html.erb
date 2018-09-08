@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @trade.type %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @trade.price %>
+</p>
+
+<p>
+  <strong>Filename:</strong>
+  <%= @trade.filename %>
+</p>
+
+<p>
+  <strong>File:</strong>
+  <%= @trade.file %>
+</p>
+
+<p>
+  <strong>Close price:</strong>
+  <%= @trade.close_price %>
+</p>
+
+<p>
+  <strong>Closed at:</strong>
+  <%= @trade.closed_at %>
+</p>
+
+<%= link_to 'Edit', edit_trade_path(@trade) %> |
+<%= link_to 'Back', trades_path %>
