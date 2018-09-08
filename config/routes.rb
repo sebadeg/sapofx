@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :posts
+  resources :users
   devise_for :admin_users, ActiveAdmin::Devise.config
   Precompile.ignore { ActiveAdmin.routes(self) } 
   root to: "admin/dashboard#index"
